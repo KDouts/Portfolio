@@ -1,3 +1,43 @@
 * {
     background-color: #bcb46d;
+    flex-wrap: wrap;
+}
+body * {
+    background-color: #e9ba4e;
+    margin: 20px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border: 5px solid #d0e4e2;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+}
+
+.hero {
+    position: relative;
+}
+
+nav a {
+    display: inline;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+div {
+    height: 600px;
+    width: 100%;
+    border: 5px solid #d0e4e2;
+}
+
+div h1 {
+    position: relative;
+}
+
+@media screen and (max-width="992px") {
+    
 }
