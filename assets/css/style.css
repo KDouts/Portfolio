@@ -35,7 +35,14 @@ div {
 }
 
 div h1 {
-    position: relative;
+    height: 95%;
+    width: 20%;
+    border-right: 2px solid #d0e4e2;
+    position: left;
+}
+
+div p {
+    justify-content: right;
 }
 
 @media screen and (max-width="992px") {
