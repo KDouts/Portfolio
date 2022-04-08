@@ -10,53 +10,130 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 <body>
-    <div class="jumbotron">
-        <h1 class="display-4">Kurtis Doute</h1>
-        <p class="lead">Welcome to my Portfolio!</p>
-        <hr class="my-4">
-        <h3>About me</h3>
-        <p>Born and raised in Michigan I learned my ways in the streets developing specific skills to survive.</p>
-    </div>
-    <div class= "text-center">
-        <a class="btn btn-primary m-3 btn-lg" role="button">Projects</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Welcome!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-sm-2" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron bg-info">
+
+        <div class='row d-flex flex-wrap center'>
+        
             <div class= "row text-center d-flex justify-content-center">
-            
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Trail Buddy!</h5>
-                        <p class="card-text">An application that utilizes the a weather API and the National Trails API to display trails and the current weather condition!</p>
-                        <a href="https://jonathan6.github.io/Trail-Buddy/" class="btn btn-primary stretched-link">Check it out!</a>
-                    </div>
+
+                <div class='card text-center me-md-3 col-lg text-white bg-dark profile-img rounded-circle' style='width: 18rem;'>
+                    
                 </div>
-        
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Kingdom Hearts Quiz!</h5>
-                        <p class="card-text">A quiz that utilizes a timer and keeps track of the right answers giving a high score</p>
-                        <a href="https://kdouts.github.io/code-quiz/" class="btn btn-primary stretched-link">Check it out!</a>
-                    </div>
-                </div>
-        
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Password Generator</h5>
-                        <p class="card-text">Need a password in a pinch? Look no further! This application randomly selects characters using the predetermined permeters</p>
-                        <a href="https://kdouts.github.io/Password-Generator/" class="btn btn-primary stretched-link">Check it out!</a>
-                    </div>
-                </div>
-        
             </div>
-        <a class="btn btn-primary m-3 btn-lg" href="#" role="button">Contact</a>
-            <div class="row text-center d-flex justify-content-center">
-                <a class="btn m-3 btn-sm" href="#" role="button">GitHub</a>
-                <a class="btn m-3 btn-sm" href="#" role="button">kcd257@yahoo.com</a>
-            </div>
-        <a class="btn btn-primary m-3 btn-lg" href="https://www.linkedin.com/in/kurtis-doute-a89745221/" role="button">LinkedIn</a>
-        <a class="btn btn-primary m-3 btn-lg" href="https://docs.google.com/document/d/1yZ-KxDW_nMIbItmfBG2hFqMio6eC-ENEC7YEjcfk-0k/edit?usp=sharing" role="button">Resume</a>
+    </div>    
+        
+        <h1 class="display-4">Kurtis Doute</h1>
+
     </div>
+
+    <div>
+        <h1 class="text-left">About Me</h1>
+
+        <p>Hello! I am Kurtis Doute. I moved from Taylor, Michigan to Kirkland, Washington in 2018 to work at Cinemark Theaters as a Theater Technology Assistant. Since then I have been a student in studying English at Grand Canyon University. During school I completed my CompTIA A+ certificate and decided that I wanted to pursue a career in the tech field.</p>
+
+        <p>I am currently enrolled in the Full Stack Web Development Bootcamp at the University of Washington in hopes to find my way to working in the tech field. Going into the program I did not know about all of the different technologies that were essential to creating and maintaining a web application such as: JavaScript, MySQL, MongoDB, React, etc...</p>
+
+        <p>In my personal life I love to play music! I was a percussionist in high school and took on projects to learn other instruments like the trumpet, guitar, violin, and saxophone. Otherwise I like to play video games and hike with my roommates.</p>
+
+    </div>
+
+    <h1>Projects</h1>
+
+    <div class="container" id="projects">
+
+        <div class='row d-flex flex-wrap center'>
+            
+            <div class= "row text-center d-flex justify-content-center">
+
+                <div class='card text-center me-md-3 col-lg text-white bg-dark game-rec' style='width: 18rem;'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>Game-Rec</h5>
+                    </div>
+                    <div class='card-body'>
+                        <a
+                        href='https://kdouts.github.io/code-quiz/'
+                        class='card-link link-primary'
+                        >Check it out!</a>
+                    </div>
+                </div>
+
+                <div class='card text-center me-md-3 col-lg text-white bg-dark trail-img' style='width: 18rem;'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>Trail Buddy</h5>
+                    </div>
+                    <div class='card-body'>
+                        <a
+                        href='https://jonathan6.github.io/Trail-Buddy/'
+                        class='card-link link-primary'
+                        >Check it out!</a>
+                    </div>
+                </div>
+        
+                <div class='card text-center me-md-3 col-lg text-white bg-dark kh-img' style='width: 18rem;'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>Kingdom Hearts Quiz</h5>
+                    </div>
+                    <div class='card-body'>
+                        <a
+                        href='https://kdouts.github.io/code-quiz/'
+                        class='card-link link-primary'
+                        >Check it out!</a>
+                    </div>
+                </div>
+
+                <div class='card text-center me-md-3 col-lg text-white bg-dark weather-img' style='width: 18rem;'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>Weather Dashboard</h5>
+                    </div>
+                    <div class='card-body'>
+                        <a
+                        href='https://kdouts.github.io/code-quiz/'
+                        class='card-link link-primary'
+                        >Check it out!</a>
+                    </div>
+                </div>
+
+                <div class='card text-center me-md-3 col-lg text-white bg-dark tech-img' style='width: 18rem;'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>Cool Tech Blog</h5>
+                    </div>
+                    <div class='card-body'>
+                        <a
+                        href='https://kdouts.github.io/code-quiz/'
+                        class='card-link link-primary'
+                        >Check it out!</a>
+                    </div>
+                </div>
+        
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
 
 </body>
 </html>
