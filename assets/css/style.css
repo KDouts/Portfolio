@@ -1,3 +1,5 @@
+
+
 /* images for projects links */
 .trail-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/Waterfall.jpg");
@@ -52,6 +54,8 @@
     background-size: cover;
     position: relative;
 }
+
+/* card effects */
 
 .card:hover{
     transform: scale(1.05);
